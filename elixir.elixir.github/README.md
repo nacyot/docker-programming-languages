@@ -25,6 +25,19 @@ $ docker run --rm -i -t -v $(pwd):/source nacyot/programming_languages:elixir el
 Hello, World
 ```
 
+## Run REPL
+
+```
+$ docker run --rm -i -t -v $(pwd):/source nacyot/programming_languages:elixir iex
+Erlang/OTP 17 [erts-6.0] [source-07b8f44] [64-bit] [smp:2:2] [async-threads:10][kernel-poll:false]
+
+Interactive Elixir (0.14.1) - press Ctrl+C to exit (type h() ENTER for help)
+iex(1)> IO.puts "Hello, World"
+Hello, World
+:ok
+
+```
+
 ## Files
 
 ```Elixir

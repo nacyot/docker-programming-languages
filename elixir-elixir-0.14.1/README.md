@@ -1,4 +1,4 @@
-# docker-programming-languages:elixir - Elixir
+# docker-programming-languages:elixir-0.14.1 - Elixir
 
 Docker Image for programming language Elixir.
 
@@ -8,27 +8,34 @@ You can manually build image by below commands.
 
 ```
 $ git clone nacyot/docker-programming-languages
-$ cd docker-programming-languages/elixir
-$ docker build -t nacyot/programming_languages:elixir .
+$ cd docker-programming-languages/elixir-elixir-0.14.1
+$ docker build -t nacyot/programming_languages:elixir-0.14.1 .
 ```
 
 It take so long to complete install process. You can also pull image from docker hub.
 
 ```
-$ docker pull -t nacyot/programming_languages:elixir
+$ docker pull -t nacyot/programming_languages:elixir-0.14.1
+```
+
+## Check version
+
+```
+$ docker run --rm -i -t -v $(pwd):/source nacyot/programming_languages:elixir-0.14.1 elixir --version
+Elixir 0.14.1
 ```
 
 ## Run Hello, World
 
 ```
-$ docker run --rm -i -t -v $(pwd):/source nacyot/programming_languages:elixir elixir /source/hello_world.exs
+$ docker run --rm -i -t -v $(pwd):/source nacyot/programming_languages:elixir-0.14.1 elixir /source/hello_world.exs
 Hello, World
 ```
 
 ## Run REPL
 
 ```
-$ docker run --rm -i -t nacyot/programming_languages:elixir iex
+$ docker run --rm -i -t nacyot/programming_languages:elixir-0.14.1 iex
 Erlang/OTP 17 [erts-6.0] [source-07b8f44] [64-bit] [smp:2:2] [async-threads:10][kernel-poll:false]
 
 Interactive Elixir (0.14.1) - press Ctrl+C to exit (type h() ENTER for help)

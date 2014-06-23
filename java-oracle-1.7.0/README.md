@@ -1,4 +1,4 @@
-# docker-programming-languages:java-oracle-1.7.0 - Java
+# java-oracle-1.7.0 - Java
 
 Docker Image for programming language Java.
 

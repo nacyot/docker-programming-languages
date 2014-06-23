@@ -1,4 +1,4 @@
-# docker-programming-languages:elixir-elixir-0.14.1 - Elixir
+# elixir-elixir-0.14.1 - Elixir
 
 Docker Image for programming language Elixir.
 

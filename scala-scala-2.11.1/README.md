@@ -1,4 +1,4 @@
-# docker-programming-languages:scala-scala-2.11.1 - Scala
+# scala-scala-2.11.1 - Scala
 
 Docker Image for programming language Scala.
 

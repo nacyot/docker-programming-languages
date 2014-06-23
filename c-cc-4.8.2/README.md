@@ -1,4 +1,4 @@
-# docker-programming-languages:c-cc-4.8.2 - C
+# c-cc-4.8.2 - C
 
 Docker Image for programming language C.
 

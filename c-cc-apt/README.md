@@ -1,4 +1,4 @@
-# c-cc:4.8.2 - C
+# c-cc:apt - C
 
 Docker Image for programming language C.
 
@@ -8,21 +8,21 @@ You can manually build image by below commands.
 
 ```
 $ git clone nacyot/docker-programming-languages
-$ cd docker-programming-languages/c-cc-4.8.2
-$ docker build -t nacyot/c-cc:4.8.2 .
+$ cd docker-programming-languages/c-cc-apt
+$ docker build -t nacyot/c-cc:apt .
 ```
 
 You can also pull image from docker hub.
 
 ```
-$ docker pull -t nacyot/c-cc:4.8.2
+$ docker pull -t nacyot/c-cc:apt
 ```
 
 ## Check version
 
 ```
-$ docker run -i -t -v $(pwd):/source nacyot/c-cc:4.8.2 cc --version
-cc (Ubuntu 4.8.2-19ubuntu1) 4.8.2
+$ docker run -i -t -v $(pwd):/source nacyot/c-cc:apt cc --version
+cc (Ubuntu apt-19ubuntu1) 4.8.2
 Copyright (C) 2013 Free Software Foundation, Inc.
 This is free software; see the source for copying conditions.  There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
@@ -32,7 +32,7 @@ warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 ```
 $ chmod +x build.sh run.sh
-$ docker run -i -t -v $(pwd):/source nacyot/c-cc:4.8.2 /source/build.sh
+$ docker run -i -t -v $(pwd):/source nacyot/c-cc:apt /source/build.sh
 $ ./hello_world
 Hello, World
 ```

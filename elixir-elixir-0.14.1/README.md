@@ -46,7 +46,7 @@ Hello, World
 
 ## Files
 
-```Elixir
+```elixir
 defmodule Hello do
   def world do
     IO.puts "Hello, World"

@@ -1,0 +1,8 @@
+  /home/daekwon/Dropbox/programmings/github/nacyot/docker-programming-languages/j-j-j802:
+  total used in directory 24 available 373372520
+  drwxr-xr-x  2 daekwon daekwon 4096 Jun 24 12:07 .
+  drwxr-xr-x 16 daekwon daekwon 4096 Jun 24 11:59 ..
+  -rw-r--r--  1 daekwon daekwon  400 Jun 24 12:05 Dockerfile
+  -rw-r--r--  1 daekwon daekwon   55 Jun 24 12:07 hello_world.j
+  lrwxrwxrwx  1 daekwon daekwon   30 Jun 24 12:03 .#README.md -> daekwon@leevi.30911:1402293494
+  -rw-r--r--  1 daekwon daekwon 1134 Jun 24 12:01 README.md

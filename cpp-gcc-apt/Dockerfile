@@ -1,4 +1,4 @@
 # This base image has command that install build-essential(includes cc command)
-FROM dockerfile/ubuntu
+FROM nacyot/ubuntu
 
 WORKDIR /source

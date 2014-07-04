@@ -1,4 +1,4 @@
-FROM dockerfile/ubuntu
+FROM nacyot/ubuntu
 MAINTAINER Daekwon Kim <propellerheaven@gmail.com>
 
 # Install base package

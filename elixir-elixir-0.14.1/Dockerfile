@@ -1,11 +1,5 @@
-FROM dockerfile/ubuntu
+FROM nacyot/ubuntu
 MAINTAINER Daekwon Kim <propellerheaven@gmail.com>
-
-# Set locale
-RUN locale-gen en_US.UTF-8  
-ENV LANG en_US.UTF-8  
-ENV LANGUAGE en_US:en  
-ENV LC_ALL en_US.UTF-8  
 
 # Install base package
 RUN apt-get update

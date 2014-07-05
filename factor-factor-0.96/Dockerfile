@@ -6,7 +6,7 @@ RUN wget -O /opt/factor.tar.gz http://downloads.factorcode.org/releases/0.96/fac
 WORKDIR /opt
 RUN tar xvf factor.tar.gz
 RUN bash -c "ln -s /opt/factor/factor /usr/local/bin/"
-RUN bash -c 'echo "factor" >> /root/.bashrc'
+RUN bash -c 'echo "factor" >> /root/.zshrc'
 
 # Set default WORKDIR
 WORKDIR /source

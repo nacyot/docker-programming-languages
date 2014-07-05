@@ -1,6 +1,6 @@
-# factor-factor:0.96 - Elixir
+# factor-factor:0.96 - Factor
 
-Docker Image for programming language Elixir.
+Docker Image for programming language Factor.
 
 ## Build Image
 

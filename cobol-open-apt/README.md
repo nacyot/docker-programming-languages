@@ -30,7 +30,7 @@ Packaged Feb 06 2009 10:30:55 CET
 ## Run Hello, World
 
 ```
-$ docker run --rm -i -t -v $(pwd):/source nacyot/cobol-open:apt cobc /source/HELLO.COB
+$ docker run --rm -i -t -v $(pwd):/source nacyot/cobol-open:apt cobc -x /source/HELLO.COB
 $ docker run --rm -i -t -v $(pwd):/source nacyot/cobol-open:apt /source/HELLO
 ```
 
